@@ -1,0 +1,215 @@
+{
+    "intents": [
+      {
+        "tag": "salutació",
+        "patterns": ["Hola", "Bon dia", "Bona tarda", "Bones"],
+        "responses": ["Hola!", "Com et puc ajudar avui?", "Ey!, que necessites?"]
+      },
+      {
+        "tag": "salutació 2",
+        "patterns": ["Què tal?", "Com estàs?", "Com anem?", "Tot bé?"],
+        "responses": ["Bé!, en que et puc ajudar?", "Tot bé, estic aquí per ajudarte!"]
+      },
+      {
+        "tag": "comiat",
+        "patterns": ["Adéu","Adeu", "Fins després", "Deu!", "Que vagi bé"],
+        "responses": ["Adéu!", "Esperem veure't aviat!", "Gràcies per visitar-nos!", "Adéu!, qualsevol dubte estem aquí per ajudar-te!"]
+      },
+      {
+        "tag": "agraïment",
+        "patterns": ["Gràcies","Moltes gràcies", "gracies", "ets el millor!", "t'ho agraeixo"],
+        "responses": ["De res!", "Estic aquí per ajudarte!", "De res! Tens algun altre dubte?"]
+      },
+      {
+        "tag": "horari",
+        "patterns": ["Quin és l'horari de segon A?", "Em pots dir que toca demà a segona hora?", "Què toca demà?"],
+        "responses": ["Aquí tens l'horari: https://iesilladerodes.clickedu.eu/students/fitxa_alumne.php?p=horari&ce_cl=34_250"]
+      },
+      {
+        "tag": "Apunts física",
+        "patterns": ["Em pots donar apunts de fisica?", "Que sortirà a física a selectivitat?"],
+        "responses": ["Aquí tens apunts de física de segon de batxillerat: https://fisquiweb.es/Apuntes/apun2BFis.htm "]
+
+      },
+      {
+        "tag": "Apunts Matemàtiques",
+        "patterns": ["Em pots donar apunts de mates?", "Que sortirà a mates a selectivitat?", "Em pots donar apunts de matemàtiques?", "Que sortirà a mates a selectivitat?"],
+        "responses": ["Aquí tens apunts de matemàtiques de segon de batxillerat: https://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/MatematicasIILL.htm"]
+
+      },
+      {
+        "tag": "Apunts Tecnologia",
+        "patterns": ["Em pots donar apunts de Tecno?", "Que sortirà a Tecno a selectivitat?", "Em pots donar apunts de tecnologia?", "Que sortirà a tecnologia a selectivitat?"],
+        "responses": ["Aquí tens apunts de tecnologia de segon de batxillerat: https://www.educa2.madrid.org/web/tecnopalas/tecnologia-e-ingenieria-ii"]
+
+      },
+      {
+        "tag": "Apunts Química",
+        "patterns": ["Em pots donar apunts de quimica?", "Que sortirà a quimica a selectivitat?"],
+        "responses": ["Aquí tens apunts de química de segon de batxillerat: https://fisquiweb.es/Apuntes/apun2BQui.htm"]
+
+      },
+      {
+        "tag": "Apunts català",
+        "patterns": ["Em pots donar apunts de català?", "Que sortirà a català a selectivitat?"],
+        "responses": ["Aquí tens apunts de llengua catalana i literatura de segon de batxillerat: https://wuolah.com/apuntes/lengua-catalana-y-literatura-ii-2"]
+
+      },
+      {
+        "tag": "Apunts castellà",
+        "patterns": ["Em pots donar apunts de castellà?", "Que sortirà a castellà a selectivitat?"],
+        "responses": ["Aquí tens apunts de llengua castellana i literatura de segon de batxillerat: https://complemento-agente.blogspot.com/p/2-de-bachillerato-lengua-textos-y.html"]
+
+      },
+      {
+        "tag": "Apunts historia",
+        "patterns": ["Em pots donar apunts d'història d'Espanya?", "Que sortirà a història d'Espanya a selectivitat?"],
+        "responses": ["Aquí tens apunts d'història d'Espanya de segon de batxillerat: https://www.educa2.madrid.org/web/juanmaria.gonzalez/haespana-2bach"]
+
+      },
+      {
+        "tag": "Apunts filosofia",
+        "patterns": ["Em pots donar apunts de filosofia?", "Que sortirà a filosofia a selectivitat?", "Em pots donar apunts de filo?", "Que sortirà a filo a selectivitat?"],
+        "responses": ["Aquí tens apunts d'Història de la Filosofia de segon de batxillerat: https://www.studocu.com/ca-es/course/historia-de-la-filosofia/4412960"]
+
+      },
+      {
+        "tag": "Apunts Anglès",
+        "patterns": ["Em pots donar apunts d'anglés?", "Que sortirà a anglès a selectivitat?"],
+        "responses": ["Aquí tens apunts de llengua extrangera: Anglès, de segon de batxillerat: https://www.studocu.com/ca-es/course/angles-ii/4412963"]
+
+      },
+       {
+        "tag": "Apunts Francès",
+        "patterns": ["Em pots donar apunts de francès?", "Que sortirà a francès a selectivitat?"],
+        "responses": ["Aquí tens apunts de llengua extrangera: Francès, de segon de batxillerat: https://wuolah.com/apuntes/frances-ii-3"]
+
+      },
+      {
+        "tag": "Apunts Biologia",
+        "patterns": ["Em pots donar apunts de biologia?", "Que sortirà a biologia a selectivitat?"],
+        "responses": ["Aquí tens apunts de biologia de segon de batxillerat: https://bio2.tiddlyhost.com/#Coberta"]
+
+      },
+      {
+        "tag": "Apunts Economia",
+        "patterns": ["Em pots donar apunts d'economia de l'empresa?", "Que sortirà a economia de l'empresa a selectivitat?"],
+        "responses": ["Aquí tens apunts d'Economia de l'empresa de segon de batxillerat: https://www.studocu.com/ca-es/course/economia-de-lempresa/6190764"]
+
+      },
+      {
+        "tag": "Apunts Mates socials",
+        "patterns": ["Em pots donar apunts de Matemàtiques aplicades a les ciències socials?", "Que sortirà a Matemàtiques aplicades a les ciències socials a selectivitat?"],
+        "responses": ["Aquí tens apunts de Matemàtiques aplicades a les ciències socials de segon de batxillerat: https://educaciodigital.cat/ioc-batx/moodle/course/view.php?id=12"]
+
+      },
+       {
+        "tag": "Apunts geografia",
+        "patterns": ["Em pots donar apunts de geografia?", "Que sortirà a geografia a selectivitat?"],
+        "responses": ["Aquí tens apunts de geografia de segon de batxillerat: https://miquelmolimon.com/apunts/"]
+
+      },
+      {
+        "tag": "Apunts Dibuix Tèncic",
+        "patterns": ["Em pots donar apunts de dibuix tècnic?", "Que sortirà a dibuix tècnic a selectivitat?"],
+        "responses": ["Aquí tens apunts de dibuix tècnic de segon de batxillerat: https://blocs.xtec.cat/martajuvanteny/dibuix-tecnic-2n-bat/"]
+
+      },
+      {
+        "tag": "Examens selectivitat",
+        "patterns": ["On puc trobar exàmens de selectivitat?", "Vull fer examens de selectivitat per pràcticar", "On puc pràcticar per la selectivitat?", "Vull practicar per les PAU","On puc trovar examens de les PAU?"],
+        "responses": ["Aquí podràs trobar els examens de la selectivitat de catalunya separats per matèries i anys: https://www.selecat.cat/ . Molta sort!"]
+
+      },
+        {
+        "tag": "Apunts Geologia",
+        "patterns": ["Em pots donar apunts de Ciències de la Terra?", "Que sortirà a Ciències de la Terra a selectivitat?", "Em pots donar apunts de geologia?", "Que sortirà a geologia a selectivitat?"],
+        "responses": ["Aquí tens apunts de Ciències de la Terra de segon de batxillerat: https://www.studocu.com/ca-es/course/ciencies-de-la-terra-ii/4412999"]
+
+      },
+      {
+        "tag": "Organització i planificació 1",
+        "patterns": ["Com puc organitzar el meu temps d'estudi?"],
+        "responses": ["Divideix el teu temps en blocs, prioritza les assignatures més difícils i fes descansos curts."]
+
+      },
+      {
+        "tag": "Organització i planificació 2",
+        "patterns": ["Com puc crear un pla d'estudi efectiu per als exàmens?","Em pods dir consells per estudiar?"],
+        "responses": ["Organitza el contingut per dies, comença pel més complex i revisa diàriament."]
+
+      },
+      {
+        "tag": "Organització i planificació 3",
+        "patterns": ["Com hauria d'organitzar el meu espai d'estudi?"],
+        "responses": ["Mantingues l'espai net, ben il·luminat i sense distraccions, només amb el que necessites."]
+
+      },
+      {
+        "tag": "NOTES DE TALL PROVES PAU",
+        "patterns": ["Quines són les notes de tall de 2024?","Quina nota de tall he de treure per entrar a x ?","Quina nota de tall he de treure","Quines són les notes de tall?"],
+        "responses": ["Aquí pots trovar totes les notes de tall de les PAU del 2024: https://universitats.gencat.cat/es/preinscripcions/sobre-preinscripcio/notes-tall/#:~:text=Informaci%C3%B3n%20sobre%20preinscripciones%20y%20notas%20de%20corte%20para"]
+
+      },
+      {
+        "tag": "Mètodes d'estudi 1",
+        "patterns": ["Quines tècniques d'estudi són més efectives per memoritzar informació?"],
+        "responses": ["Pots fer epeticions espaiades, resums i mapes mentals per ajudar-te."]
+      },
+      {
+        "tag": "Mètodes d'estudi 2",
+        "patterns": ["Com puc millorar la meva concentració mentre estudio?"],
+        "responses": ["Elimina distraccions, fixa't objectius clars i fes servir tècniques com el mètode Pomodoro."]
+      },
+      {
+        "tag": "Mètodes d'estudi 3",
+        "patterns": ["Com puc repassar de manera eficient abans d'un examen?"],
+        "responses": ["Fes resums breus, practica amb exercicis i repassa el que et costi més."]
+      },
+      {
+        "tag": "Motivació i hàbits d'estudi 1",
+        "patterns": ["Com puc evitar la procrastinació?"],
+        "responses": ["Divideix les tasques grans en parts petites, fixa't terminis curts i elimina distraccions."]
+      },
+      {
+        "tag": "Preparació per a exàmens 1",
+        "patterns": ["Com puc repassar per les PAU?"],
+        "responses": ["Repassa els temes clau, fes simulacres d'examen i organitza un pla de repàs."]
+      },
+      {
+        "tag": "Tècniques per millorar el rendiment acadèmic",
+        "patterns": ["Com puc millorar la meva comprensió dels textos que llegeixo?"],
+        "responses": ["Llegeix amb atenció, subratlla el més important i fes un resum amb les teves paraules."]
+      },
+      {
+        "tag": "Equilibri entre estudi i vida personal",
+        "patterns": ["Com puc gestionar millor el meu temps lliure sense deixar de banda els estudis?"],
+        "responses": ["Pots utilitzar el teu temps lliure com a recompensa després de completar objectius d'estudi."]
+      },
+      {
+        "tag": "Consells per millorar habilitats",
+        "patterns": ["Què puc fer per millorar la meva redacció i estil d'escriptura?"],
+        "responses": ["Llegeix més, escriu amb regularitat i revisa sempre el que has escrit."]
+      },
+      {
+        "tag": "Orientació general sobre el futur acadèmic 1",
+        "patterns": ["Què puc fer si no sé quina carrera triar?"],
+        "responses": ["Investiga els teus interessos, consulta orientadors i fes proves vocacionals."]
+      },
+      {
+        "tag": "Orientació general sobre el futur acadèmic 2",
+        "patterns": ["Com puc preparar-me millor per als exàmens d'ingrés a la universitat?"],
+        "responses": ["Estudia amb antelació, coneix el format de l'examen i practica amb simulacres."]
+      },
+       {
+        "tag": "Ajuda del chatbot",
+        "patterns": ["En que em pots ajudar?","Quins dubtes puc resoldre?","Què pots fer?","Que et puc preguntar?"],
+        "responses": ["Estic aquí per resoldre tot tipus de dubtes. Pots provar a demanar-me apunts de qualsevol matèria, consells per estudiar, notes de tall de l'últim any, com millorar el rendiment acadèmic, etc."]
+      },
+      {
+        "tag": "Qui ets?",
+        "patterns": ["Qui ets?","Que es això?","Qui t'ha creat?"],
+        "responses": ["Sóc l'assistent virtual de segon de batxillerat, he sigut creat per en Carlos Acedo Rivas, alumne de segon A, com a part pràctica del seu treball de recerca experimentant amb la intel·ligència artificial. Estic aquí per resoldre dubtes!"]
+      }
+    ]
+}
